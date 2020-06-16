@@ -49,18 +49,3 @@ def number_to_short_month_name(num)
         return "Oct"
     end
 end
-
-def test_volume_of_cube(length)
-    return length**3
-end
-
-def test_volume_of_sphere(radius)
-    pi = 3.14
-    x = 4.0 / 3.0
-    return radius**3 * pi * x
-end
-
-def test_fahrenheit_to_celcius(fahrenheit)
-    celsius = (fahrenheit - 32) * 5.0 / 9.0
-    return celsius
-end
