@@ -94,9 +94,9 @@ end
 end
 
   #Given a value in farenheit, convert this into celsius.
-  def test_fahrenheit_to_celcius(fahrenheit)
-    celsius = (fahrenheit - 32) * 5.0 / 9.0
-    return celsius
+  def test_fahrenheit_to_celcius()
+    result = calculate_celcius(50)
+    assert_equal(10, result)
 end
 
 end

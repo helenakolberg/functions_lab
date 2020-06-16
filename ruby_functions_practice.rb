@@ -57,3 +57,7 @@ end
 def sphere_volume(radius)
     return (( 4.0 / 3.0 ) * 3.14 * radius**3).to_i
 end
+
+def calculate_celcius(fahrenheit)
+    return (fahrenheit - 32) * 5.0 / 9.0
+end
